@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/7fd7b5f132.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <audio controls>
+        <source src="./audio/yeuthuongngaydo.mp3">
+    </audio>
+    <div class="mp3-player">
+        <h1>Now Playing</h1>
+        <div class="player">
+            <div class="brand">
+                <div class="volume">
+                    <i class="fa-solid fa-volume-high"></i>
+                    <div class="slide-volume">
+                        <input type="range" min="0" max="100" value="100">
+                    </div>
+                </div>
+                <p>Next - <span>Rockstar</span></p>
+            </div>
+            <div class="music">
+                <div class="image">
+                    <img src="./img/tung.png" alt="">
+                </div>
+                <div class="artist">
+                    <p>Yêu Thương Ngày Đó</p>
+                    <p>Em Sáng Soobin</p>
+                </div>
+                <div class="duration">
+                    <input type="range">
+                    <div class="time">
+                        <p>00:00</p>
+                        <p>00:00</p>
+                    </div>
+                </div>
+                <div class="btn">
+                    <i class="fa-solid fa-shuffle"></i>
+                    <i class="fa-solid fa-backward"></i>
+                    <div class="pause">
+                        <i class="fa-solid fa-play"></i>
+                        
+                    </div>
+                    <i class="fa-solid fa-forward"></i>
+                    <i class="fa-solid fa-repeat"></i>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
